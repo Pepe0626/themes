@@ -1,0 +1,14 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+.portlet-decorate .portlet-content {
+    background: #fff;
+    border-color: #d21d1d;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    word-wrap: break-word;
+}
