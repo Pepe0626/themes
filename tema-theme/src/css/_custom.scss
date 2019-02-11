@@ -1,0 +1,41 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+div#heading {
+    display: none;
+}
+
+nav#breadcrumbs {
+    display: none;
+}
+nav#navigation {
+    display: none;
+}
+
+#banner .user-personal-bar .sign-in > a {
+    line-height: 28px;
+    padding: 15px 4px;
+}
+
+a#sign-in {
+    font-size: 18px;
+    color: #6A708B;
+    line-height: 28px;
+    padding: 15px 20px;
+    margin-right: 0px;
+    float: right;
+    text-decoration: none;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+div#p_p_id_com_liferay_login_web_portlet_LoginPortlet_ {
+    height: 401.85px;
+    width: 560px;
+    left: 488px;
+    top: 10px;
+    z-index: 1201;
+}
