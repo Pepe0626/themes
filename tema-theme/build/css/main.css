@@ -370,7 +370,7 @@
 * All rights reserved.
 * MIT license
 */
-@import url(estilos.css?t=1549840386711);
+@import url(estilos.css?t=1549909792422);
 .loading-animation, .loadingmask-message .loadingmask-message-content {
   animation: loading-animation 1.7s infinite ease;
   border-radius: 50%;
@@ -3582,5 +3582,14 @@ div#p_p_id_com_liferay_login_web_portlet_LoginPortlet_ {
   left: 488px;
   top: 10px;
   z-index: 1201; }
+
+h2.portlet-title-text.portlet-title-editable {
+  display: none; }
+
+.portlet-decorate .portlet-content {
+  border-color: white; }
+
+h2.portlet-title-text {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
