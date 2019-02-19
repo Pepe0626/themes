@@ -370,7 +370,7 @@
 * All rights reserved.
 * MIT license
 */
-@import url(estilos.css?t=1549750635518);
+@import url(estilos.css?t=1550183837312);
 .loading-animation, .loadingmask-message .loadingmask-message-content {
   animation: loading-animation 1.7s infinite ease;
   border-radius: 50%;
@@ -3558,5 +3558,8 @@ input.switch:empty ~ .switch-bar:after, input.switch:empty ~ .switch-bar:before,
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   word-wrap: break-word; }
+
+div#heading {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
