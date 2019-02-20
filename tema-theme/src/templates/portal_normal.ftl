@@ -8,8 +8,9 @@
 	<title>${the_title} - ${company_name}</title>
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
      <script src="${javascript_folder}/owl.carousel.min.js" type="text/javascript"></script>
-portal_normal.ftl
+
 	<@liferay_util["include"] page=top_head_include />
 </head>
 
