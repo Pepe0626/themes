@@ -1,3 +1,9 @@
+
+tema-theme\build\
+tema-theme/dist/**
+tema-theme/liferay-theme.json
+tema-theme/node_modules/liferay-theme-tasks/tmp/_bourbon.scss
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Eclipse template
 
@@ -47,8 +53,3 @@ local.properties
 *.zip
 *.tar.gz
 *.rar
-
-tema-theme/build/
-tema-theme/dist/tema-theme.war
-tema-theme/liferay-theme.json
-tema-theme/node_modules/liferay-theme-tasks/tmp/_bourbon.scss
