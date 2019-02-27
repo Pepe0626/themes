@@ -1,5 +1,5 @@
-
-tema-theme\build\
+ema-theme/dist/
+tema-theme/build/
 tema-theme/dist/**
 tema-theme/liferay-theme.json
 tema-theme/node_modules/liferay-theme-tasks/tmp/_bourbon.scss
