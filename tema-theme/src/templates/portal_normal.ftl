@@ -9,7 +9,12 @@
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
-     <script src="${javascript_folder}/owl.carousel.min.js" type="text/javascript"></script>
+    <!-- Fuente de google -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<@liferay_util["include"] page=top_head_include />
 </head>
@@ -194,9 +199,17 @@
 
 </div>
 
+    <!-- <script src="${javascript_folder}/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="${javascript_folder}/bootstrap.min.js" type="text/javascript"></script>
+    <script src="${javascript_folder}/owl.carousel.min.js" type="text/javascript"></script> -->
+
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
+
+
+   
+
 
 <!-- inject:js -->
 <!-- endinject -->
