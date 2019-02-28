@@ -27,7 +27,8 @@
 
 <@liferay.control_menu />
 
-<div class="container-fluid" id="wrapper">
+<div id="wrapper" class="pt-0">
+
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
