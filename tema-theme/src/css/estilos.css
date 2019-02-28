@@ -815,7 +815,7 @@ strong {
 }
 /* UTILERIAS */
 .bg-primario {
-	background: #F8FAFB;
+	background: white;
 }
 
 .bg-secundario {
@@ -1495,7 +1495,9 @@ border:none;
 }
 
 }
-
+div#slider-principal{
+	background: #E8F1FF;
+}
 /* Celular */ 
 .filterPage .titulo-carrito{ 
 	margin-bottom: 20px; 
