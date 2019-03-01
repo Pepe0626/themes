@@ -1,7 +1,7 @@
 body {
-	font-family: 'Muli', sans-serif;
-	font-size: 16px;
-	color: #1B2125;;
+	font-family: 'Muli', sans-serif !important;
+	font-size: 16px !important;
+	color: #1B2125 !important;
 }
 
 .strong {
@@ -156,7 +156,7 @@ a:hover {
 
 .busquedaInput {
 	border: solid 1px #0077E2;
-	height: 41px;
+	height: 48px;
 	padding: 0 10px;
 }
 
