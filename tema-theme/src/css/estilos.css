@@ -446,7 +446,7 @@ a:hover {
 /* SECCIONES */
 	/* Marcas */
 .marcas {
-	padding: 15px 0;
+	padding: 0px 0px;
 }
 
 .marcasTitulo {
@@ -456,7 +456,7 @@ a:hover {
 
 .marcas img {
 	margin: 0 auto;
-	max-height: 40px;
+	max-height: 80px;
 }
 
 .marcas .fila {
@@ -650,7 +650,10 @@ strong {
 }
 
 .seccion {
-	padding: 50px 0;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 .subtitulo {
@@ -906,12 +909,15 @@ strong {
 	color: #a4a4a4;
 }
 .container-secundario{
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }
 .bg-secundario, .container-ruta {
 	background: #E8F1FF;
 	padding-top: 12px;
 	padding-bottom: 12px;
+}
+.bg-secundario {
+    background: #E8F1FF;
 }
 .descripcion_detalle {
 	font-size:16px;
