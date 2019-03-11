@@ -271,7 +271,7 @@ a:hover {
 
 .contenedorLateral.subtotales .subtitulo {
 	font-size: 14px;
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 }
 
 .contenedorLateral.subtotales .subtitulo.descuentos {
