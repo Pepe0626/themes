@@ -867,6 +867,14 @@ strong {
 	color: #03AD00;
 }
 
+.t-rojo {
+	color: #FF5B6F;
+}
+
+.t-ambar {
+	color: #FFBF35;
+}
+
 .d-block {
 	display: block !important;
 }
