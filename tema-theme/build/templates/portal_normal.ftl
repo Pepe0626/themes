@@ -27,7 +27,9 @@
 
 <@liferay.control_menu />
 
-<div class="container-fluid" id="wrapper">
+<div id="wrapper" class="pt-0">
+
+<#if false>
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
@@ -51,7 +53,7 @@
 			<#include "${full_templates_path}/navigation.ftl" />
 		</#if>
 	</header>
-
+</#if> 
 	<section id="content">
 		<h1 class="hide-accessible">${the_title}</h1>
 
@@ -78,122 +80,118 @@
 		</p>
 	</footer> -->
 
-<footer class="piePagina">
-            <div class="bg-secundario">
-                <div class="container seccion">
-                    <p class="text-left"><strong>La empresa lider en distribución de refacciones automotrices en linea ofrece a sus clientes</strong></p>
-                    <div class="row text-center servicios">
-                        <div class="col-md-2 col-md-offset-1">
-                            <div class="servicioContenedor">
-                                <a href="#">
-                                    <img src="http://localhost:8780/konakart/images/uxme/icono50x50.png" alt="">
-                                    <p>Más de 60,000 productos</p>
-                                </a>
-                            </div>
+    <footer class="piePagina">
+        <div class="bg-secundario" style="background: #E8F1FF;>
+            <div class="container seccion">
+                <p class="text-left titulo">La empresa lider en distribución de refacciones automotrices en linea ofrece a sus clientes</p>
+                <div class="row text-center servicios">
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/25000.png" alt="">
+                            <p>Contamos con 25,000 números de parte a su disposición</p>
                         </div>
-                        <div class="col-md-2">
-                            <div class="servicioContenedor">
-                                <a href="#">
-                                    <img src="http://localhost:8780/konakart/images/uxme/icono50x50.png" alt="">
-                                    <p>Asesoría experta a través de nuestro chat</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/marcas-reconocidas.png" alt="">
+                            <p>Le ofrecemos las marcas más reconocidas del mercado</p>
                         </div>
-                        <div class="col-md-2">
-                            <div class="servicioContenedor">
-                                <a href="#">
-                                    <img src="http://localhost:8780/konakart/images/uxme/icono50x50.png" alt="">
-                                    <p>Rastreo de estatus de pedidos</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/chat-profesional.png" alt="">
+                            <p>Chat con asesoria profesional</p>
                         </div>
-                        <div class="col-md-2">
-                            <div class="servicioContenedor">
-                                <a href="#">
-                                    <img src="http://localhost:8780/konakart/images/uxme/icono50x50.png" alt="">
-                                    <p>Servicio de envío express</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/entregas-republica.png" alt="">
+                            <p>Entregamos en la mayor parte de la Republica Mexicana</p>
                         </div>
-                        <div class="col-md-2">
-                            <div class="servicioContenedor">
-                                <a href="#">
-                                    <img src="http://localhost:8780/konakart/images/uxme/icono50x50.png" alt="">
-                                    <p>Devolución gratuita las primeras 48 horas</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/garantia-satisfaccion.png" alt="">
+                            <p>Ofrecemos Garantiá de satisfacción total en nuestros productos</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="servicioContenedor">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/rastreo-pedidos.png" alt="">
+                            <p>Contamos con rastreo de estatus de sus pedidos</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-terciario">
-                <div class="container seccion">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <ul class="listaSinBullet">
-                                <li>
-                                    <a href="#">Rastrea tu pedido</a>
-                                </li>
-                                <li>
-                                    <a href="#">Facturación</a>
-                                </li>
-                                <li>
-                                    <a href="#">Acerca de</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="listaSinBullet">
-                                <li>
-                                    <a href="#">Política de privacidad</a>
-                                </li>
-                                <li>
-                                    <a href="#">Términos y condiciones</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="#">Centro de ayuda</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 redes">
-                            <p>Siguenos en redes sociales</p>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 pago">
-                            <p>Métodos de pago</p>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/logo80x20.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/logo80x20.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="http://localhost:8780/konakart/images/uxme/logo80x20.png" alt="">
-                            </a>
-                        </div>
+        </div>
+        <div class="bg-terciario">
+            <div class="container seccion">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="listaSinBullet">
+                            <li>
+                                <a href="#">Rastrea tu pedido</a>
+                            </li>
+                            <li>
+                                <a href="#">Facturación</a>
+                            </li>
+                            <li>
+                                <a href="#">Acerca de</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="bg-copy">
-                    <div class="container text-center">
-                        <p>2003 - 2019 El nombre de la compañia - Todos los derechos reservados</p>
+                    <div class="col-md-4">
+                        <ul class="listaSinBullet">
+                            <li>
+                                <a href="#">Política de privacidad</a>
+                            </li>
+                            <li>
+                                <a href="#">Términos y condiciones</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacto</a>
+                            </li>
+                            <li>
+                                <a href="#">Centro de ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-3 redes">
+                        <p>Siguenos en redes sociales</p>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/icono20x20.png" alt="">
+                        </a>
+                    </div> -->
+                    <div class="col-md-3 col-md-offset-1 pago">
+                        <p>Métodos de pago</p>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/visa-logo.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/mastercard-logo.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="http://localhost:8780/konakart/images/uxme/cdo/american-express-logo.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-        </footer>
+            <div class="bg-copy">
+                <div class="container text-center">
+                    <p>2003 - 2019 El nombre de la compañia - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
