@@ -1823,6 +1823,10 @@ div#slider-principal{
 	padding: 0 30px;
 }
 
+.botn-secundario:hover {
+	background: #E8F1FF;
+}
+
 .botn-comprar {
 	color: #FFFFFF;
 	background: #0077E2;
