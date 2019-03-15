@@ -1004,6 +1004,7 @@ td:nth-child(1){
 .enlace-individual{
 	display: inline-block;
 	width:98%;
+	cursor: pointer;
 }
 .link-box{
 	width:75%;
@@ -1832,4 +1833,17 @@ div#slider-principal{
 
 .botn-comprar:hover {
 	background: #004F96
+}
+
+.titulo-producto p {
+	/*nombre*/
+	font-family: Muli-Black;
+	font-size: 26px;
+	color: #1B2125;
+}
+
+/* Garantía de producto */
+.garantia-producto {
+	font-family: Muli-Regular;
+	font-size: 16px;
 }
