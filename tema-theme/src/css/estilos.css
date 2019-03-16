@@ -1851,3 +1851,47 @@ div#slider-principal{
 	font-family: Muli-Regular;
 	font-size: 16px;
 }
+
+/* Campo dropdown */
+.form-select {
+	font-family: Muli-Regular;
+	font-size: 16px;
+	color: #788995;
+	background: #FFFFFF;
+	border: 1px solid #DDE3E8;
+	border-radius: 3px;
+	padding: 0 20px;
+	margin-bottom: 12px;
+	height: 54px;
+}
+
+/* Marca */
+.marca-producto {
+	font-family: Muli-Regular;
+	font-size: 14px;
+	color: #788995;
+}
+
+/*reseña */
+.resena-producto {
+	font-family: Muli-Regular;
+	font-size: 14px;
+	color: #788995;
+}
+
+/*precio */
+.titulo-precio {
+	font-family: Muli-ExtraBold;
+	font-size: 26px;
+	color: #1B2125;
+	letter-spacing: 0;
+}
+
+/* El recuadro verde de disponible */
+.info-verde {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #DBFEDE;
+}
