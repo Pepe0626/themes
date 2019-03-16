@@ -551,12 +551,12 @@ a:hover {
 	font-size: 40px;
 	padding: 10px 0 10px 10px;
 }
-
+/*
 background: #0077E2;
 color: #FFF;
 font-size: 40px;
 padding: 10px 0 10px 10px;
-}
+}*/
 
 
 .carouselContenido .icon-star,
@@ -1841,16 +1841,25 @@ div#slider-principal{
 	background: #004F96
 }
 
+.icono-botn-comprar {
+	font-size:20px; 
+	color:#ffffff;
+}
+
 .titulo-producto p {
 	/*nombre*/
-	font-family: Muli-Black;
+	/*font-family: Muli-Black;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
 	font-size: 26px;
 	color: #1B2125;
 }
 
 /* Garantía de producto */
 .garantia-producto {
-	font-family: Muli-Regular;
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 }
 
@@ -1889,7 +1898,9 @@ div#slider-principal{
 
 /*precio */
 .titulo-precio {
-	font-family: Muli-ExtraBold;
+	/*font-family: Muli-ExtraBold;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
 	font-size: 26px;
 	color: #1B2125;
 	letter-spacing: 0;
@@ -1902,4 +1913,10 @@ div#slider-principal{
     border: 1px solid transparent;
     border-radius: 4px;
     background-color: #DBFEDE;
+}
+
+/* El ancho de la caja del elemento del carousel */
+.item-producto-carousel {
+	width: 240px; 
+	margin-right: 10px;
 }
