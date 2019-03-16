@@ -1810,7 +1810,9 @@ div#slider-principal{
 }
 
 .botn {
-	font-family: Muli-ExtraBold;
+	/*font-family: Muli-ExtraBold;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
 	font-size: 16px;
 }
 
@@ -1854,7 +1856,9 @@ div#slider-principal{
 
 /* Campo dropdown */
 .form-select {
-	font-family: Muli-Regular;
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 	color: #788995;
 	background: #FFFFFF;
@@ -1867,14 +1871,18 @@ div#slider-principal{
 
 /* Marca */
 .marca-producto {
-	font-family: Muli-Regular;
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	font-size: 14px;
 	color: #788995;
 }
 
 /*reseña */
 .resena-producto {
-	font-family: Muli-Regular;
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	font-size: 14px;
 	color: #788995;
 }
