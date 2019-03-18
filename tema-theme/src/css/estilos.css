@@ -1809,6 +1809,7 @@ div#slider-principal{
 	padding-top: 0 !important;
 }
 
+/* Estilos de acuerdo al manual */
 .botn {
 	/*font-family: Muli-ExtraBold;*/
 	font-family: 'Muli', sans-serif;
@@ -1846,7 +1847,7 @@ div#slider-principal{
 	color:#ffffff;
 }
 
-.titulo-producto p {
+.titulo-producto {
 	/*nombre*/
 	/*font-family: Muli-Black;*/
 	font-family: 'Muli', sans-serif;
@@ -1904,6 +1905,17 @@ div#slider-principal{
 	font-size: 26px;
 	color: #1B2125;
 	letter-spacing: 0;
+}
+
+/*agregar a mi lista*/
+.liga_agregar {
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #A4B3BD;
+	text-align: center;
+	padding: 20px 0;
 }
 
 /* El recuadro verde de disponible */
