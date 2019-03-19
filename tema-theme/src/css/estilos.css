@@ -266,8 +266,10 @@ a:hover {
 
 .contenedorLateral.subtotales {
 	background: #F6F6F6;
-	padding: 50px 25px;
+	padding: 50px 0;
+	text-align: left;
 }
+
 
 .contenedorLateral.subtotales .subtitulo {
 	font-size: 14px;
@@ -831,6 +833,13 @@ strong {
 	background: #F6F6F6;
 }
 
+.bloqueResaltado-secundario {
+	background: #E8F1FF;
+	border: 1px solid #DDE3E8;;
+	border-radius: 3px;
+	padding: 5px 25px;
+}
+
 .mt-25 {
 	margin-top: 25px;
 }
@@ -1101,10 +1110,9 @@ td:nth-child(1){
 
 .procucto-de-carrito{
 	padding-top:10px;
-	padding-bottom:10px;
-	
+	padding-bottom:10px;	
 	border-bottom:solid;
-	border-bottom-color:cadetblue;
+	border-bottom-color:#DDE3E8;
 	border-bottom-width: 1px;
 }
  .carrito-precio, .carrito-cantidad, .carrito-total{
@@ -1142,14 +1150,20 @@ td:nth-child(1){
 	color: #0077E2;;
 }
 
+.eliminar-producto a:hover {
+	color: #004F96;
+}
+
+
  .total-a-pagar{
 	background-color: #E8EDFF;
-	margin-left: -15px;
 	padding:15px;
-	text-align:center;
+	text-align:left;
 }
 .recuadro-total-a-pagar{
+	background-color: #ffffff;
 	padding:15px;
+	text-align: left;
 }
 .subtotal{
 	font-size:18px;
