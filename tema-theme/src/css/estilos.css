@@ -47,9 +47,9 @@ a:hover {
 }
 
 .utilerias .opciones a {
-	color: #0077E2;;
+	color: #0077E2;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 200;
 	padding: 5px 20px;
 }
 
@@ -58,22 +58,35 @@ a:hover {
 }
 
 .utilerias .opciones a:hover {
-	background: transparent;
 	color: #004F96;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
-.utilerias .opciones .resaltado {
+/*
+	3. Carrito de compra */
+.utilerias .opciones .opt-carrito {
+	/*font-family: Muli-SemiBold;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 36px;
 	background: #0077E2;
+	padding: 0 30px;
+	vertical-align: middle !important;
 }
+/* Icono: 
+font-family: material;
+font-size: 24px;
+color: #FFFFFF; */
 
 .utilerias .opciones .resaltado:hover a {
-	background: #004F96;
 	text-decoration: none !important;
 }
 
 .utilerias .opciones .resaltado a {
-	color: #FFF;
+	color: #FFFFFF;
 }
 
 .popupCarrito {
@@ -1959,3 +1972,17 @@ div#slider-principal{
 	width: 240px; 
 	margin-right: 10px;
 }
+
+/* el estilo para el contenedor del top-menu*/
+.contenedor-topMenu {
+	font-size: 12px;
+	background: #F8FAFB;
+	height: 36px;
+}
+
+/* Icono: */
+/*font-family: material;
+font-size: 24px;
+color: #0077E2;*/
+
+/* Hover: */
