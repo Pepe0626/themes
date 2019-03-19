@@ -1817,6 +1817,19 @@ div#slider-principal{
 	font-size: 16px;
 }
 
+/* Botón principal */
+.botn-principal {
+	color: #FFFFFF;
+	background: #0077E2;
+	border-radius: 3px;
+	height: 54px;
+	padding: 0 30px;
+}
+
+.botn-principal:hover {
+	background: #004F96
+}
+
 .botn-secundario {
 	color: #0077E2;
 	background: #FFFFFF;
