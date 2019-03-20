@@ -1986,3 +1986,17 @@ font-size: 24px;
 color: #0077E2;*/
 
 /* Hover: */
+
+/* Enlace de texto */
+.enlace-texto {
+	/*font-family: Muli-Regular;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #0077E2;
+}
+/* Hover: */
+.enlace-texto:hover {
+	color: #004F96;
+	text-decoration: underline;
+}
