@@ -310,7 +310,7 @@ color: #FFFFFF; */
 /* Clase usada en la pantalla de login, para cada una de las columnas */
 .bloque {
 	margin: 25px;
-	padding: 30px 0px;
+	padding: 30px 15px;
 }
 
 .tituloSeccion {
