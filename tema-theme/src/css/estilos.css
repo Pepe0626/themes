@@ -1977,6 +1977,18 @@ div#slider-principal{
 	background: #c23125;
 }
 
+.botn-facebook {
+	background: #3a54a1;
+	color: #FFFFFF;
+	border-radius: 3px;
+	height: 54px;
+	padding: 0 30px;
+}
+
+.botn-facebook:hover {
+	background: #102b7a;
+}
+
 .icono-botn-comprar {
 	font-size:20px; 
 	color:#ffffff;
