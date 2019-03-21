@@ -390,6 +390,13 @@ color: #FFFFFF; */
 	height: 54px;
 }
 
+.formulario input[type="text"]:focus, input[type="password"]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
 .formulario input[type="password"] {
 	/*font-family: Muli-Regular;*/
 	font-family: 'Muli', sans-serif;
@@ -1987,6 +1994,12 @@ div#slider-principal{
 
 .botn-facebook:hover {
 	background: #102b7a;
+}
+
+/* Las imagenes de esas clases */
+.botn img {
+	margin-left:5px;
+	margin-right:10px;
 }
 
 .icono-botn-comprar {
