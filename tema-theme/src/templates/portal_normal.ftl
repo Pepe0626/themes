@@ -81,7 +81,7 @@
 	</footer> -->
 
     <footer class="piePagina">
-        <div class="bg-secundario" style="background: #E8F1FF;>
+        <div class="bg-secundario" style="background: #E8F1FF;">
             <div class="container seccion">
                 <p class="text-left titulo">La empresa lider en distribución de refacciones automotrices en linea ofrece a sus clientes</p>
                 <div class="row text-center servicios">

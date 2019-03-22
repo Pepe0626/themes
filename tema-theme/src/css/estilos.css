@@ -1,4 +1,5 @@
 body {
+	background-color: #F8F8F8 !important;
 	font-family: 'Muli', sans-serif !important;
 	font-size: 16px !important;
 	color: #1B2125 !important;
@@ -73,47 +74,39 @@ a:hover {
 	text-decoration: underline;
 }
 
-.utilerias .opciones a {
-	color: #0077E2;
+.utilerias .opciones a,
+.btn-carrito {
+	color: #0077E2;;
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 600;
 	padding: 5px 20px;
 }
 
 .utilerias .opciones span {
 	vertical-align: top;
+	line-height: 24px;
 }
 
 .utilerias .opciones a:hover {
 	color: #004F96;
 	text-decoration: underline;
-	cursor: pointer;
 }
 
-/*
-	3. Carrito de compra */
-.utilerias .opciones .opt-carrito {
-	/*font-family: Muli-SemiBold;*/
-	font-family: 'Muli', sans-serif;
-	font-weight: 200;
-	font-size: 14px;
-	color: #FFFFFF;
-	height: 36px;
+.utilerias .opciones .resaltado {
 	background: #0077E2;
-	padding: 0 30px;
-	vertical-align: middle !important;
 }
-/* Icono: 
-font-family: material;
-font-size: 24px;
-color: #FFFFFF; */
 
 .utilerias .opciones .resaltado:hover a {
 	text-decoration: none !important;
 }
 
-.utilerias .opciones .resaltado a {
-	color: #FFFFFF;
+.utilerias .opciones .resaltado a,
+.btn-carrito {
+	color: #FFF;
+}
+
+.btn-carrito .cantidadCarrito {
+	margin-left: 5px
 }
 
 .popupCarrito {
@@ -165,7 +158,8 @@ color: #FFFFFF; */
 
 .popupCarrito .subtotalCarrito {
 	background: #F0F2F5;
-	border-top: 1px solid #DBDBED;;
+	border-top: 1px solid #DBDBED;
+	color: #1B2125;
 	padding: 15px;
 }
 
@@ -201,8 +195,8 @@ color: #FFFFFF; */
 }
 
 .iconoBusqueda {
-	background-color: #0077E2;
-	border: solid 1px #0077E2;
+	background-color: #0077E2 !important;
+	border: solid 1px #0077E2 !important;
 	height: 41px;
 	padding: 7px 35px;
 }
