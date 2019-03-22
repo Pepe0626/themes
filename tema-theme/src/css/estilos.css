@@ -4,6 +4,33 @@ body {
 	color: #1B2125 !important;
 }
 
+/* Definiciones generales */
+h1 {
+	/*font-family: Muli-Black;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 26px;
+	color: #1B2125;
+	line-height: 3;
+}
+
+h2  {
+	font-family: Muli-Bold;
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #1B2125;
+	line-height: 2;
+}
+
+h3 {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #1B2125;
+	line-height: 1.2;
+}
+
 .strong {
 	font-weight: bold;
 }
@@ -488,25 +515,6 @@ color: #FFFFFF; */
 	height: 18px;
 }
 
- 
-/*
-Checkbox inactivo
-
-/* Input 
-border: 2px solid #A4B3BD;
-border-radius: 2px;
-width: 18px
-height: 18px
-
-Checkbox activo
-font-family: Muli-Regular;
-font-size: 14px;
-color: #1B2125;
-line-height: 12px;
-padding-bottom: 12px;
-/* Input 
-
-*/
 .formulario .checkboxRigth input[type="checkbox"] {
 	transform: scale(1.5);
 	right: 15px;
