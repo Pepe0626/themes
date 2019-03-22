@@ -1,1 +1,5 @@
 /* fix styles */
+/* Alinea las imagenes del detalle del producto a la izquierda en lugar de al centro*/
+.kkpdt-gallery_nav {
+	text-align: left !important;
+}
