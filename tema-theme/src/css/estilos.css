@@ -2103,13 +2103,6 @@ div#slider-principal{
 	height: 36px;
 }
 
-/* Icono: */
-/*font-family: material;
-font-size: 24px;
-color: #0077E2;*/
-
-/* Hover: */
-
 /* Enlace de texto */
 .enlace-texto {
 	/*font-family: Muli-Regular;*/
@@ -2122,4 +2115,12 @@ color: #0077E2;*/
 .enlace-texto:hover {
 	color: #004F96;
 	text-decoration: underline;
+}
+
+/* Se sobre escribe class del mensaje de error */
+.formulario .kk-validation-msg label {
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #FF5B6F;
 }
