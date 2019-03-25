@@ -520,6 +520,77 @@ a:hover {
 	color: #A4B3BD;
 }
 
+.formulario.filtros {
+	padding: 25px;
+}
+
+.formulario.filtros.resaltado {
+	background: #F8F8F8;
+	border-bottom: 1px solid #CCC;
+}
+
+.formulario.filtros label {
+	color: #1B2125;
+}
+
+.formulario.filtros .nota {
+	color: #9C9C9E;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.formulario.filtros .cantidad {
+	background: transparent;
+	color: #9C9C9E;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.formulario.filtros .cantidad::before {
+	content: "(";
+}
+
+.formulario.filtros .cantidad::after {
+	content: ")";
+}
+
+/* Formulario para modificar la cantidad de productos */ 
+.formulario  .controlCantidad .input-group-addon { 
+	background-color: transparent; 
+} 
+
+.formulario  .controlCantidad .input-group-addon .material-icons { 
+	color:#788995; 
+	font-size: 16px; 
+} 
+
+.formulario .form-control.cantidadInput { 
+	border-right: none; 
+	font-weight: 700; 
+	width: 42px; 
+} 
+
+.formulario .input-group-addon.btnAgregar { 
+	background-color: #0077E2; 
+} 
+
+.formulario .input-group-addon.btnAgregar a { 
+	color: #FFF; 
+	font-weight: 900; 
+	line-height: 22px; 
+} 
+
+.formulario .input-group-addon.btnAgregar a .material-icons { 
+	color: #FFF; 
+	font-size: 22px; 
+	position: absolute; 
+} 
+
+.formulario .btnAgregarTexto { 
+	padding-left: 30px; 
+} 
+
 	/* Tabs */
 .nav-tabs > li > a {
 	color: #CCC;

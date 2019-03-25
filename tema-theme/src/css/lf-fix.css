@@ -11,3 +11,9 @@
 	font-size: 14px;
 	color: #FF5B6F;
 }
+
+/* Corrige los campos para modificar cantidad de productos */
+.formulario .controlCantidad input[type="text"] {
+	margin-bottom: 0;
+	padding: 0 11px;
+}
