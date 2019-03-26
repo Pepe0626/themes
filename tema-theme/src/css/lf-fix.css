@@ -18,7 +18,7 @@
 	padding: 0 11px;
 }
 
-/* El fondo del area de los productos */
-.kkps-item-area {
-	background: #F8F8F8;
+/* hace transparente el background del portlet */
+.portlet-decorate .portlet-content {
+	background-color: transparent !important;
 }

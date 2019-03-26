@@ -293,14 +293,14 @@ a:hover {
 
 /* Elementos generales */
 .contenedorLateral {
-	background: #E8EDFF;
-	margin-left: 15px;
+	background: #FFF;
+	margin-left: 0;
 	padding: 25px;
 }
 
 .contenedorLateral.subtotales {
-	background: #F6F6F6;
-	padding: 50px 0;
+	background: transparent;
+	padding: 50px 0px;
 	text-align: left;
 }
 
@@ -655,7 +655,7 @@ a:hover {
 	font-size: 18px;
 	font-weight: 700;	
 	margin: 0 auto;
-	height: 40px;
+	height: 55px;
 	overflow: hidden;
 	position:relative;
 	text-overflow: ellipsis;
@@ -1006,7 +1006,7 @@ strong {
 }
 
 .carouselContenido {
-	border-top: solid 2px #CCC;
+	border-top: solid 1px #CCC;
 	padding: 10px 15px;
 }
 
