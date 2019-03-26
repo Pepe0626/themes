@@ -1,0 +1,11 @@
+{
+  "LiferayTheme": {
+    "deploymentStrategy": "LocalAppServer",
+    "appServerPath": "C:\\liferay-dxp-digital-enterprise-7.0-sp7\\tomcat-8.0.32",
+    "deployPath": "C:\\liferay-dxp-digital-enterprise-7.0-sp7\\deploy",
+    "url": "http://localhost:9090",
+    "appServerPathPlugin": "C:\\liferay-dxp-digital-enterprise-7.0-sp7\\tomcat-8.0.32\\webapps\\tema-theme",
+    "deployed": true,
+    "pluginName": "tema-theme"
+  }
+}

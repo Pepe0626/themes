@@ -1,0 +1,24 @@
+/* fix styles */
+/* Alinea las imagenes del detalle del producto a la izquierda en lugar de al centro*/
+.kkpdt-gallery_nav {
+	text-align: left !important;
+}
+
+/* Se sobre escribe class del mensaje de error */
+.kk-validation-msg label {
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #FF5B6F;
+}
+
+/* Corrige los campos para modificar cantidad de productos */
+.formulario .controlCantidad input[type="text"] {
+	margin-bottom: 0;
+	padding: 0 11px;
+}
+
+/* hace transparente el background del portlet */
+.portlet-decorate .portlet-content {
+	background-color: transparent !important;
+}
