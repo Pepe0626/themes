@@ -17,3 +17,8 @@
 	margin-bottom: 0;
 	padding: 0 11px;
 }
+
+/* El fondo del area de los productos */
+.kkps-item-area {
+	background: #F8F8F8;
+}
