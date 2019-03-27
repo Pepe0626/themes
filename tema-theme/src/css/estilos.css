@@ -2217,3 +2217,14 @@ div#slider-principal{
 .alto-45 {
 	height:45px;
 }
+
+/* El estilo para la opcion del carrito */
+.opt-carrito {
+	/*font-family: Muli-SemiBold;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 36px;
+	background: #0077E2;
+}
