@@ -29,7 +29,7 @@ h3 {
 	font-weight: bold;
 	font-size: 18px;
 	color: #1B2125;
-	line-height: 1.2;
+	line-height: 1;
 }
 
 .strong {
@@ -328,9 +328,10 @@ a:hover {
 	margin-top: 25px;
 }
 
+/* El contenedor para el facet de la pantalla de resultados de búsqueda */
 .contenedorLateralAlt {
-	background: #FFF;
-	border: 1px solid #CCC;
+	background: #F8FAFB;
+	border: 1px solid #CED4DA;
 	border-radius: 3px;
 }
 
@@ -532,7 +533,12 @@ a:hover {
 
 .formulario.filtros.resaltado {
 	background: #F8F8F8;
-	border-bottom: 1px solid #CCC;
+	border-bottom: 1px solid #CED4DA;
+}
+
+/* Color de las etiquetas del contenedor facets de la pantalla de resultados de búsqueda */
+.formulario.filtros.resaltado label {
+	color: #788995;
 }
 
 .formulario.filtros label {
@@ -757,7 +763,7 @@ padding: 10px 0 10px 10px;
 
 .chatBtn {
 	background: #FFF;
-	border: 1px solid #CCC;
+	border: 1px solid #CED4DA;
 	border-radius: 40px;
 	padding: 10px 80px 0 30px;
 }
@@ -804,7 +810,7 @@ padding: 10px 0 10px 10px;
 
 .busquedaEncabezado .etiquetaFiltro {
 	background: #FFF;
-	border: 1px solid #CCC;
+	border: 1px solid #CED4DA;
 	display: inline-block;
 	margin-left: 10px;
 	padding: 3px 30px 3px 8px;
