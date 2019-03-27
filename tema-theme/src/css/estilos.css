@@ -654,20 +654,27 @@ a:hover {
 
 	/* Productos recientes */
 .carouselContenido .info {
+	font-family: 'Muli', sans-serif;
+	font-weight: lighter;
+	font-size: 10px;
 	color: #788995;
+	letter-spacing: 0;
+	line-height: 1.6;
 	display: inline-block;
-	font-size: 12px;
-	margin-bottom: 5px;
-	margin-top: 5px;
 }
 
-.carouselContenido .titulo {
-	color: #1B2125;
+/* Es el titulo del producto */
+.carouselContenido .tituloProducto {
+	/*font-family: Muli-ExtraBold;*/
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 1.6;
+	height: 45px;
+	
 	display: -webkit-box;
-	font-size: 18px;
-	font-weight: 700;	
-	margin: 0 auto;
-	height: 55px;
 	overflow: hidden;
 	position:relative;
 	text-overflow: ellipsis;
@@ -2197,4 +2204,9 @@ div#slider-principal{
 .enlace-texto:hover {
 	color: #004F96;
 	text-decoration: underline;
+}
+
+/* Helper para una altura de 45 pixeles */
+.alto-45 {
+	height:45px;
 }
