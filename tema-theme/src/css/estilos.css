@@ -92,8 +92,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* La opción del carrito */
 .utilerias .opciones .resaltado {
 	background: #0077E2;
+	width: 150px;
 }
 
 .utilerias .opciones .resaltado:hover a {
