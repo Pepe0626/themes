@@ -557,7 +557,7 @@ a:hover {
 	font-size: 14px;
 	font-weight: 400;
 }
-
+/* Se comenta porque es dinamico los parentesis
 .formulario.filtros .cantidad::before {
 	content: "(";
 }
@@ -565,6 +565,7 @@ a:hover {
 .formulario.filtros .cantidad::after {
 	content: ")";
 }
+*/
 
 /* Formulario para modificar la cantidad de productos */ 
 .formulario  .controlCantidad .input-group-addon { 
