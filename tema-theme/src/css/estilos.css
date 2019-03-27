@@ -653,6 +653,7 @@ a:hover {
 }
 
 	/* Productos recientes */
+	/* Es la marca y modelo del producto */
 .carouselContenido .info {
 	font-family: 'Muli', sans-serif;
 	font-weight: lighter;
@@ -661,6 +662,7 @@ a:hover {
 	letter-spacing: 0;
 	line-height: 1.6;
 	display: inline-block;
+	margin: 0px;
 }
 
 /* Es el titulo del producto */
