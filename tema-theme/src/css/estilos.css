@@ -2209,6 +2209,9 @@ div#slider-principal{
 }
 
 /* Helper para una altura de 45 pixeles */
+.alto-35 {
+	height:35px;
+}
 .alto-45 {
 	height:45px;
 }
