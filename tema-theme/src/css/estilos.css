@@ -490,13 +490,13 @@ a:hover {
 }
 
 /* Elemento Checkbox */
-.formulario input[type="checkbox"] {
+/*.formulario input[type="checkbox"] {
 	border: 2px solid #A4B3BD;
 	border-radius: 2px;
 	width: 18px;
 	height: 18px;
 	margin-right: 8px;		
-}
+}*/
 
 .formulario input[type="checkbox"] + label {
 	/*font-family: Muli-Regular;*/
@@ -507,13 +507,12 @@ a:hover {
 }
 
 /* Elemento Checkbox, cuando está marcado */
-.formulario input[type="checkbox"]:checked {
-  	/*box-shadow: 0 0 0 3px hotpink;*/
+/*.formulario input[type="checkbox"]:checked {
 	background: #0077E2;
 	border-radius: 2px;
 	width: 18px;
 	height: 18px;
-}
+}*/
 
 .formulario .checkboxRigth input[type="checkbox"] {
 	transform: scale(1.5);
