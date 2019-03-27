@@ -328,10 +328,16 @@ a:hover {
 	margin-top: 25px;
 }
 
+.contenedorLateralAlt {
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
+
 /* Clase usada en la pantalla de login, para cada una de las columnas */
 .bloque {
 	margin: 25px;
-	padding: 30px 15px;
+	padding: 30px 50px;
 }
 
 .tituloSeccion {
