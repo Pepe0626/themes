@@ -529,6 +529,9 @@ a:hover {
 }
 
 .formulario.filtros {
+	background: #FFF;
+	border: 1px solid #DDE3E8;
+	border-radius: 3px;
 	padding: 25px;
 }
 
@@ -540,6 +543,8 @@ a:hover {
 /* Color de las etiquetas del contenedor facets de la pantalla de resultados de búsqueda */
 .formulario.filtros.resaltado label {
 	color: #788995;
+	border: 1px solid #DDE3E8;
+	border-radius: 3px;
 }
 
 .formulario.filtros label {
@@ -823,6 +828,7 @@ padding: 10px 0 10px 10px;
 	background: #FFF;
 	border: 1px solid #CED4DA;
 	display: inline-block;
+	font-weight: 700;
 	margin-left: 10px;
 	padding: 3px 30px 3px 8px;
 	position: relative;
@@ -954,6 +960,14 @@ strong {
 .btn-primary:hover {
 	background: #004F96;
 	border-color: #004F96;
+}
+
+.botn-comprar .material-icons {
+	font-size: 21px;
+	position: absolute;
+	left: 5px;
+	top: 6px;
+	right: auto;
 }
 
 .btn-lg {
